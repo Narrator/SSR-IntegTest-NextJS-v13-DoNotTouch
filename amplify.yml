@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - whoami
         - npm install
     build:
       commands:
